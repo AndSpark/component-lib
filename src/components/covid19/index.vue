@@ -15,13 +15,7 @@
 		<div class="flex flex-wrap">
 			<div class="relative w-full h-auto p-8 lg:w-2/5 lg:p-16">
 				<social-distancing class="w-full h-auto" />
-				<transition name="slide-fade">
-					<div class="absolute w-full border-2 bg-opacity-90 bg-blue-300 border-white top-0 left-0 max-h-full overflow-y-auto mt-2" v-show="isShowList">
-						<p v-for="name in areaList" :key="name" >
-							<button class="py-3  hover:bg-blue-400 w-full ">{{ name }}</button>
-						</p>
-					</div>
-				</transition>
+			
 			</div>
 
 			<div class="relative w-full p-4 lg:w-3/5 lg:p-16">
